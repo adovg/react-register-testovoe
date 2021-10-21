@@ -8,7 +8,7 @@ import Map from '../Map/Map';
 const ContactStyle = styled.div`
 // margin: 0 auto;
 //margin-top: 170px;
-margin-bottom: 170px;
+//margin-bottom: 170px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -30,6 +30,7 @@ width: 100%;
 const RegisterSection = styled.div`
 margin-top: 170px;
 margin-left: 150px;
+margin-bottom: 170px;
 //margin-rigth: 100px;
 `;
 

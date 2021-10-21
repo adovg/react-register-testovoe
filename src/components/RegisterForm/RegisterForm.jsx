@@ -35,7 +35,39 @@ border-radius: 10px;
 width: 500px;
 height: 90px;
 margin-bottom: 8px;
+font-size: 18px;
+font-family: 'Apercu Arabic Pro';
+font-size: 18px;
+padding-left: 46px;
+text-align: left;
+font-weight: normal;
+    ::placeholder {
+        font-family: 'Apercu Arabic Pro';
+        font-size: 18px;
+        padding-left: 46px;
+        font-weight: normal;
+  }
 `;
+
+const InputText = styled.input`
+height: 189px;
+border-radius: 10px;
+margin-bottom: 23px;
+font-family: 'Apercu Arabic Pro';
+font-size: 18px;
+padding-left: 46px;
+text-align: left;
+font-weight: normal;
+  ::placeholder {
+    font-family: 'Apercu Arabic Pro';
+    font-size: 18px;
+    padding-left: 46px;
+    text-align: left;
+    font-weight: normal;
+  }
+
+`;
+
 
 export default function RegisterForm() {
     const [nameValue, setNameValue] = useState('Your name*');
@@ -45,9 +77,9 @@ export default function RegisterForm() {
 
     return (
         <Register>
-            <Input type="name" placeholder={nameValue} onChange={ (e) => setNameValue(e.target.value)  }/>
+            <Input type="name" placeholder="Your name*" onChange={ (e) => setNameValue(e.target.value)  }/>
             <Input type="email" placeholder="Your e-mail*"  />
-            <Input type="text" placeholder="Your message*"/>
+            <InputText type="text" placeholder="Your message*"/>
             <Button onClick={() => alert('1')}>
                <p>Send message</p>
             </Button>

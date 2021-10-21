@@ -3,13 +3,14 @@ import { createGlobalStyle } from "styled-components";
 import "./App.css";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Yello from "./components/Faces/Yello";
 
 const AppWrap = createGlobalStyle`
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+}
   body {
     // margin: 0;
     font-family: 'Apercu Arabic Pro', sans-serif;
@@ -32,12 +33,16 @@ const AppWrap = createGlobalStyle`
     position: relative;
     overflow: hidden;
   }
+
+.yellow1 {
+  position: absolute;
 }
 `;
 
 function App() {
   return (
     <div className="wrapper">
+      <Yello/>
       <AppWrap />
       <Contact />
       <Footer />
