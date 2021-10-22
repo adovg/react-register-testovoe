@@ -12,13 +12,8 @@ const AppWrap = createGlobalStyle`
   box-sizing: border-box;
 }
   body {
-    // margin: 0;
     font-family: 'Apercu Arabic Pro', sans-serif;
-    //padding: 0 15px;
     margin: 0 auto;
-    // background: red;
-    // position: relative;
-     //overflow: hidden;
   }
   
   @font-face {
@@ -26,7 +21,6 @@ const AppWrap = createGlobalStyle`
     src: url('./fonts/ApercuArabicPro-Regular.woff');
   }
   .wrapper {
-    //background: red;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;

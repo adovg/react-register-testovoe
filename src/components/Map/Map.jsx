@@ -5,41 +5,46 @@ import Red from '../Faces/Red';
 
 
 const MapFrame = styled.div`
-//margin-top: 170px;
-//margin-left: 100px;
-// min-width: 500px;
-// //height: 500px;
-// max-height: 100%;
-// overflow: hidden;
 
-//position:relative;
     iframe {
         margin-left: 200px;
-        width: 80vh;
-        height: 71vh;
+        width: 90vh;
+        height: 90vh;
         border-radius: 50%;
         position: absolute;
         z-index: 0;
-        // top: 0;
          left: 42%;
     }
     .yellow2 {
         position: absolute;
-        width: 88px;
-        height: 85px;
         z-index: 3;
         left: 48%;
         top: 60%;
     }
     .redFace {
         position: absolute;
-        width: 214px;
-        height: 208px;
         top: 0,15px;
         left: 50%;
         z-index: 1;
         top: 60%;
     }
+    @media (max-width: 1176px) {
+        display: none;
+        .yellow2 {
+        left: 62%;
+         img {
+            width: 80px;
+            height: 80px:    
+        }
+    }        
+        .redFace {
+            left: 64%;
+         img {
+            width: 214px;
+            height: 208px;
+            }
+    }
+}
 `;
 
 export default function Map() {

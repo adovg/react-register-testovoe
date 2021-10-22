@@ -6,14 +6,9 @@ import Map from '../Map/Map';
 
 
 const ContactStyle = styled.div`
-// margin: 0 auto;
-//margin-top: 170px;
-//margin-bottom: 170px;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-//justify-content: flex-end;
-//align-items: center;
 min-width: 320px;
 max-width: 1440px;
 max-height: 100%;
@@ -22,8 +17,10 @@ width: 100%;
     h1 {
         margin-bottom: 30px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 1176px) {
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
       }
 `;
 
@@ -31,7 +28,12 @@ const RegisterSection = styled.div`
 margin-top: 170px;
 margin-left: 150px;
 margin-bottom: 170px;
-//margin-rigth: 100px;
+    @media (max-width: 1176px) {
+        margin-top: 100px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 70px;
+  }
 `;
 
 

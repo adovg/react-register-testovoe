@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d87cbb72.chunk.css",
+    "main.js": "/static/js/main.d69f440b.chunk.js",
+    "main.js.map": "/static/js/main.d69f440b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.55e0cf86.js",
+    "runtime-main.js.map": "/static/js/runtime-main.55e0cf86.js.map",
+    "static/js/2.17c74c1f.chunk.js": "/static/js/2.17c74c1f.chunk.js",
+    "static/js/2.17c74c1f.chunk.js.map": "/static/js/2.17c74c1f.chunk.js.map",
+    "static/js/3.3d9ff54c.chunk.js": "/static/js/3.3d9ff54c.chunk.js",
+    "static/js/3.3d9ff54c.chunk.js.map": "/static/js/3.3d9ff54c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d87cbb72.chunk.css.map": "/static/css/main.d87cbb72.chunk.css.map",
+    "static/js/2.17c74c1f.chunk.js.LICENSE.txt": "/static/js/2.17c74c1f.chunk.js.LICENSE.txt",
+    "static/media/fb.5b690d54.svg": "/static/media/fb.5b690d54.svg",
+    "static/media/linkedin.2c528a22.svg": "/static/media/linkedin.2c528a22.svg",
+    "static/media/paintrest.de56188d.svg": "/static/media/paintrest.de56188d.svg",
+    "static/media/twitter.0c6752ff.svg": "/static/media/twitter.0c6752ff.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55e0cf86.js",
+    "static/js/2.17c74c1f.chunk.js",
+    "static/css/main.d87cbb72.chunk.css",
+    "static/js/main.d69f440b.chunk.js"
+  ]
+}

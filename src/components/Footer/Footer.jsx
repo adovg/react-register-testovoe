@@ -52,6 +52,29 @@ ul {
     top: 0,15px;
     left: 157,79px;
 }
+@media (max-width: 567px) {
+    ul {
+        flex-direction: column;
+        margin-top: 40px;
+        margin: 0 auto;
+        z-index: 1;
+            li {
+                z-index: 1;
+                display: block;
+                margin: 10px;
+            }
+
+        }
+        .redFace img {
+         
+          z-index: 0;
+          width: 114px;
+          height: 108px;
+          top: 0,15px;
+          left: 160px;
+      }
+    }
+
 `
 
 export default function Footer() {
