@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
 const Register = styled.div`
@@ -75,9 +75,6 @@ font-weight: 400;
 
 
 export default function RegisterForm() {
-    const [nameValue, setNameValue] = useState('Your name*');
-    console.log(nameValue);
-
 
     return (
         <form action="http://localhost:3012/users/" method="post">
